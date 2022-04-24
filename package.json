@@ -1,0 +1,36 @@
+{
+  "name": "hw20",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "wdio": "wdio run wdio.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kkatyazhukk/hw20.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kkatyazhukk/hw20/issues"
+  },
+  "homepage": "https://github.com/kkatyazhukk/hw20#readme",
+  "dependencies": {
+    "@wdio/cli": "^7.19.5",
+    "chai": "^4.3.6",
+    "chai-jquery": "^2.1.0",
+    "chai-url": "^1.0.4",
+    "expect-webdriverio": "^3.2.1",
+    "mocha": "^9.2.2",
+    "webdriverio": "^7.19.5"
+  },
+  "devDependencies": {
+    "@wdio/local-runner": "^7.19.4",
+    "@wdio/mocha-framework": "^7.19.5",
+    "@wdio/spec-reporter": "^7.19.1",
+    "chromedriver": "^100.0.0",
+    "wdio-chromedriver-service": "^7.3.2"
+  }
+}
